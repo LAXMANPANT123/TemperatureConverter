@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="temper.css">
+</head>
+<body>
+    <div class="converter">
+    <h2>Temperature converter</h2>
+    <label for="fromunit">from:</label>
+        <select id="fromunit">
+           <option value="c">Celcius</option>
+           <option value="f">Fahrenheit</option>
+           <option value="k">Kelvin</option>
+        </select>
+    <label for="tounit">TO:</label>
+        <select id="tounit">
+          <option value="c">Celcius</option>
+          <option value="f">Fahrenheit</option>
+          <option value="k">Kelvin</option>
+        </select>
+    <label for="tempereture">temperature</label>
+
+<input  type="number" id="temperature"placeholder="Enter Tempereture">
+<button onclick="convert()">convert</button>
+<label for="result">result:</label>
+<input type="text" id="result" readonly>
+    </div>
+
+
+    <script src="temp.js"></script>
+    
+</body>
+</html>
